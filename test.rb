@@ -17,4 +17,15 @@ class TestRomanNumerals <Minitest::Test
         input_number = 5
         assert_equal('V', convert_numbers(input_number))
     end
+
+    def test_6_equals_VI
+        input_number = 6
+        assert_equal('VI', convert_numbers(input_number))
+    end
+
+    def test_10_equals_X
+        input_number = 10
+        assert_equal('X', convert_numbers(input_number))
+    end
+
 end
