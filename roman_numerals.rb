@@ -84,6 +84,9 @@ def convert_from_numerals(input_letter, result)
     end
 end
 
+def make_input_letters_an_array(input_letter)
+    letter_array = input_letter.split("")
+end
 
 
 # I (=1)
