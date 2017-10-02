@@ -40,7 +40,8 @@ class TestRomanNumerals <Minitest::Test
     end
 
     def test_14_equals_XVI
-        input_number = 14
+		input_number = 14
+		result = ""
         assert_equal('XVI', convert_numbers(input_number, result))
     end
 
