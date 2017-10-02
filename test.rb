@@ -68,4 +68,22 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal('CM', convert_numbers(input_number, result))
     end
+
+    def test_500_equals_D
+        input_number = 500
+        result = ""
+        assert_equal('D', convert_numbers(input_number, result))
+    end
+
+    def test_100_equals_C
+        input_number = 100
+        result = ""
+        assert_equal('C', convert_numbers(input_number, result))
+    end
+
+    def test_50_equals_L
+        input_number = 50
+        result = ""
+        assert_equal('L', convert_numbers(input_number, result))
+    end
 end
