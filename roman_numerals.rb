@@ -21,6 +21,10 @@ def convert_numbers(input_number, result)
         input_number -= 500
         result << "D"
         convert_numbers(input_number, result)
+    elsif input_number >= 400
+        input_number -= 400
+        result << "CD"
+        convert_numbers(input_number, result) 
     elsif input_number >= 100
         input_number -= 100
         result << "C"
