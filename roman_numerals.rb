@@ -8,24 +8,40 @@
 # D (=500)
 # M(=1000)
 
-def convert_numbers(input_number)
-    if input_number == 1
-        "I"
-    elsif input_number == 5
-        "V"
-    elsif input_number == 10
-        "X"
-    elsif input_number == 50
-        "L"
-    elsif input_number == 100
-        "C"
-    elsif input_number == 500
-        "D"
-    elsif input_number == 1000
-        "M"
+def convert_numbers(input_number, result)
+    if input_number >= 1000
+        input_number -= 1000
+        result << "M"
+        convert_numbers(input_number)
+    elsif input_number >= 500
+        input_number -= 500
+        result << "D"
+        convert_numbers(input_number)
+    elsif input_number >= 100
+        input_number -= 100
+        result << "C"
+        convert_numbers(input_number)
+    elsif input_number >= 50
+        input_number -= 50
+        result << "L"
+        convert_numbers(input_number)
+    elsif input_number >= 10
+        input_number -= 10
+        result << "X"
+        convert_numbers(input_number)
+    elsif input_number >= 5
+        input_number -= 5
+        result << "V"
+        convert_numbers(input_number)
+    elsif input_number >= 1
+        input_number -= 1
+     result << "I"
+    convert_numbers(input_number)
+    else
+       result
     end
-    
 end
+
 
 
 

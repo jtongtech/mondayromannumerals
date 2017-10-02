@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time='0.000109' skipped='0' failures='1' errors='0' name="TestRomanNumerals" assertions='3' tests='3'>
-  <testcase time='0.000091' file="test.rb" name="test_2_equals_II" assertions='1'>
-    <failure type='Minitest::Assertion' message="Expected: &quot;II&quot;&#13;&#10;  Actual: nil">/usr/lib/ruby/vendor_ruby/minitest/assertions.rb:129:in `assert&#39;
-/usr/lib/ruby/vendor_ruby/minitest/assertions.rb:163:in `assert_equal&#39;
-test.rb:13:in `test_2_equals_II&#39;
+<testsuite time='0.000575' skipped='0' failures='0' errors='10' name="TestRomanNumerals" assertions='0' tests='10'>
+  <testcase time='0.000098' file="test.rb" name="test_19_equals_XIX" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:31:in `convert_numbers&#39;
+test.rb:50:in `test_19_equals_XIX&#39;
 /usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
 /usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
 /usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
@@ -25,10 +25,247 @@ test.rb:13:in `test_2_equals_II&#39;
 /usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
 /usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
 /usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
-    </failure>
+    </error>
   </testcase>
-  <testcase time='0.000011' file="test.rb" name="test_5_equals_V" assertions='1'>
+  <testcase time='0.000052' file="test.rb" name="test_5_equals_V" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:35:in `convert_numbers&#39;
+test.rb:21:in `test_5_equals_V&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
   </testcase>
-  <testcase time='0.000006' file="test.rb" name="test_1_equals_I" assertions='1'>
+  <testcase time='0.000020' file="test.rb" name="test_14_equals_XVI" assertions='0'>
+    <error type='NameError' message="undefined local variable or method `result&#39; for #&lt;TestRomanNumerals:0x00000002755308&gt;&#13;&#10;Did you mean?  result_code">test.rb:44:in `test_14_equals_XVI&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000051' file="test.rb" name="test_59_equals_LIX" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:27:in `convert_numbers&#39;
+test.rb:62:in `test_59_equals_LIX&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000047' file="test.rb" name="test_24_equals_XXIV" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:31:in `convert_numbers&#39;
+test.rb:56:in `test_24_equals_XXIV&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000068' file="test.rb" name="test_6_equals_VI" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:35:in `convert_numbers&#39;
+test.rb:27:in `test_6_equals_VI&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000071' file="test.rb" name="test_1_equals_I" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:39:in `convert_numbers&#39;
+test.rb:9:in `test_1_equals_I&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000051' file="test.rb" name="test_10_equals_X" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:31:in `convert_numbers&#39;
+test.rb:33:in `test_10_equals_X&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000067' file="test.rb" name="test_11_equals_XI" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:31:in `convert_numbers&#39;
+test.rb:39:in `test_11_equals_XI&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
+  </testcase>
+  <testcase time='0.000049' file="test.rb" name="test_2_equals_II" assertions='0'>
+    <error type='ArgumentError' message="wrong number of arguments (given 1, expected 2)">/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:11:in `convert_numbers&#39;
+/home/mmoore5325/PersonalProjects/mondayromannumerals/roman_numerals.rb:39:in `convert_numbers&#39;
+test.rb:15:in `test_2_equals_II&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:108:in `block (3 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:205:in `capture_exceptions&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:105:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:256:in `time_it&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:104:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:276:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest/test.rb:103:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:778:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:305:in `run_one_method&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:293:in `block (2 levels) in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `each&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:292:in `block in run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:331:in `on_signal&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:318:in `with_info_handler&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:291:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `block in __run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `map&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:152:in `__run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:129:in `run&#39;
+/usr/lib/ruby/vendor_ruby/minitest.rb:56:in `block in autorun&#39;
+    </error>
   </testcase>
 </testsuite>
