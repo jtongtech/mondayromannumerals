@@ -135,11 +135,15 @@ class TestRomanNumerals <Minitest::Test
 		assert_equal("MMMMMMDLXXIX", convert_numbers(input_number, result))
 	end
 
-
 	def test_number_12756
 		input_number = 12756
 		result = ""
 		assert_equal("MMMMMMMMMMMMDCCLVI", convert_numbers(input_number, result))
 	end
 
+    def test_roman_numeral_M
+        input_letter = "M"
+        result = 0
+        assert_equal(1000, convert_from_numerals(input_letter, result))
+    end
 end
