@@ -67,5 +67,16 @@ class TestRomanNumerals <Minitest::Test
         input_number = 900
         result = ""
         assert_equal('CM', convert_numbers(input_number, result))
+	end
+	def test_950_equals_CML
+        input_number = 950
+        result = ""
+        assert_equal('CML', convert_numbers(input_number, result))
+	end
+	
+	def test_1950_equals_CML
+        input_number = 1950
+        result = ""
+        assert_equal('MCML', convert_numbers(input_number, result))
     end
 end

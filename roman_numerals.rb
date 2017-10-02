@@ -9,13 +9,13 @@
 # M(=1000)
 
 def convert_numbers(input_number, result)
-    if input_number == 900
-        result << "CM"
-        input_number -= 900
-        convert_numbers(input_number, result)
-    elsif input_number >= 1000
+    if input_number >= 1000
         input_number -= 1000
         result << "M"
+        convert_numbers(input_number, result)
+    elsif input_number >= 900
+        result << "CM"
+        input_number -= 900
         convert_numbers(input_number, result)
     elsif input_number >= 500
         input_number -= 500
