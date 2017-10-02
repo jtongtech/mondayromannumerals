@@ -69,8 +69,27 @@ end
 def convert_from_numerals(input_letter, result)
     if input_letter == "M"
         result = result + 1000
+    elsif input_letter == "D"
+        result = result + 500
+    elsif input_letter == "C"
+        result = result + 100
+    elsif input_letter == "L"
+        result = result + 50
+    elsif input_letter == "X"
+        result = result + 10
+    elsif input_letter == "V"
+        result = result + 5
+    elsif input_letter == "I"
+        result = result + 1      
     end
 end
 
 
 
+# I (=1)
+# V (=5)
+# X (=10)
+# L (=50)
+# C (=100)
+# D (=500)
+# M(=1000)
