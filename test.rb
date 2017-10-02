@@ -122,4 +122,24 @@ class TestRomanNumerals <Minitest::Test
 		result = ""
 		assert_equal("XIV", convert_numbers(input_number, result))
 	end
+
+	def test_number_with_lots_of_changes
+		input_number = 4444
+		result = ""
+		assert_equal("MMMMCDXLIV", convert_numbers(input_number, result))
+	end
+
+	def test_number_6579
+		input_number = 6579
+		result = ""
+		assert_equal("MMMMMMDLXXIX", convert_numbers(input_number, result))
+	end
+
+
+	def test_number_12756
+		input_number = 12756
+		result = ""
+		assert_equal("MMMMMMMMMMMMDCCLVI", convert_numbers(input_number, result))
+	end
+
 end
