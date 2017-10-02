@@ -92,7 +92,7 @@ def array_loop(input_letter, result)
     result = result.to_i
     letter_array = input_letter.split("")
     letter_array.each do |index|
-        puts "input_letter is #{input_letter}, result is #{result}, letter_array is #{letter_array}"
+        # puts "input_letter is #{input_letter}, result is #{result}, letter_array is #{letter_array}"
         if index == "M"
             result = result + 1000
         elsif index == "D"
@@ -117,28 +117,42 @@ def have_to_subtract(input_letter, result)
     if input_letter.include?("IV")
         input_letter = input_letter.delete("IV")
         result = result + 4
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     elsif input_letter.include?("IX")
         input_letter = input_letter.delete("IX")
         result = result + 9
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     elsif input_letter.include?("XL")
         input_letter = input_letter.delete("XL")
         result = result + 40
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     elsif input_letter.include?("XC")
         input_letter = input_letter.delete("XC")
         result = result + 90
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     elsif input_letter.include?("CD")
         input_letter = input_letter.delete("CD")
         result = result + 400
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     elsif input_letter.include?("CM")
         input_letter = input_letter.delete("CM")
         result = result + 900
+        puts result
+        puts input_letter
         have_to_subtract(input_letter, result)
     else
+        puts result
+        puts input_letter
         array_loop(input_letter, result)
     end
 end
