@@ -62,4 +62,10 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal('LIX', convert_numbers(input_number, result))
     end
+
+    def test_900_equals_CM
+        input_number = 900
+        result = ""
+        assert_equal('CM', convert_numbers(input_number, result))
+    end
 end
