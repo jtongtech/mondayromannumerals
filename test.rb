@@ -187,4 +187,10 @@ class TestRomanNumerals <Minitest::Test
         input_letter = "VVI"
         assert_equal(["V", "V", "I"], make_input_letters_an_array(input_letter))
     end
+
+    def test_roman_numeral_III_returns_3
+        input_letter = "III"
+        result = ""
+        assert_equal(3, array_loop(input_letter, result))
+    end
 end

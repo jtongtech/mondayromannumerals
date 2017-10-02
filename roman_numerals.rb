@@ -88,6 +88,36 @@ def make_input_letters_an_array(input_letter)
     letter_array = input_letter.split("")
 end
 
+def array_loop(input_letter, result)
+    result = result.to_i
+    letter_array = input_letter.split("")
+    letter_array.each do |index|
+        puts "input_letter is #{input_letter}, result is #{result}, letter_array is #{letter_array}"
+        if index == "M"
+            result = result + 1000
+        elsif index == "D"
+            result = result + 500
+        elsif index == "C"
+            result = result + 100
+        elsif index == "L"
+            result = result + 50
+        elsif index == "X"
+            result = result + 10
+        elsif index == "V"
+            result = result + 5
+        elsif index == "I"
+            result = result + 1      
+        end
+    end
+    result
+end
+
+def convert_roman_to_number(input_letter, result)
+    make_input_letters_an_array(input_letter)
+    array_loop(result)
+end
+
+
 
 # I (=1)
 # V (=5)
