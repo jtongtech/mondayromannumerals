@@ -66,6 +66,11 @@ def convert_numbers(input_number, result)
     end
 end
 
+def convert_from_numerals(input_letter, result)
+    if input_letter == "M"
+        result = result + 1000
+    end
+end
 
 
 
