@@ -146,4 +146,41 @@ class TestRomanNumerals <Minitest::Test
         result = 0
         assert_equal(1000, convert_from_numerals(input_letter, result))
     end
+
+    def test_roman_numeral_D
+        input_letter = "D"
+        result = 0
+        assert_equal(500, convert_from_numerals(input_letter, result))
+    end
+
+    def test_roman_numeral_C
+        input_letter = "C"
+        result = 0
+        assert_equal(100, convert_from_numerals(input_letter, result))
+    end
+    
+    def test_roman_numeral_L
+        input_letter = "L"
+        result = 0
+        assert_equal(50, convert_from_numerals(input_letter, result))
+    end
+    
+    def test_roman_numeral_X
+        input_letter = "X"
+        result = 0
+        assert_equal(10, convert_from_numerals(input_letter, result))
+    end
+
+    def test_roman_numeral_V
+        input_letter = "V"
+        result = 0
+        assert_equal(5, convert_from_numerals(input_letter, result))
+    end
+    
+    def test_roman_numeral_I
+        input_letter = "I"
+        result = 0
+        assert_equal(1, convert_from_numerals(input_letter, result))
+    end
+
 end
