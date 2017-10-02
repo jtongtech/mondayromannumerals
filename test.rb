@@ -33,4 +33,9 @@ class TestRomanNumerals <Minitest::Test
         assert_equal('XI', convert_numbers(input_number))
     end
 
+    def test_14_equals_XVI
+        input_number = 14
+        assert_equal('XVI', convert_numbers(input_number))
+    end
+
 end
