@@ -5,37 +5,60 @@ class TestRomanNumerals <Minitest::Test
 	
     def test_1_equals_I
         input_number = 1
-		assert_equal('I', convert_numbers(input_number))
+        result = ""
+		assert_equal('I', convert_numbers(input_number, result))
     end
 
     def test_2_equals_II
         input_number = 2
-        assert_equal('II', convert_numbers(input_number))
+        result = ""
+        assert_equal('II', convert_numbers(input_number, result))
     end
     
     def test_5_equals_V
         input_number = 5
-        assert_equal('V', convert_numbers(input_number))
+        result = ""
+        assert_equal('V', convert_numbers(input_number, result))
     end
 
     def test_6_equals_VI
         input_number = 6
-        assert_equal('VI', convert_numbers(input_number))
+        result = ""
+        assert_equal('VI', convert_numbers(input_number, result))
     end
 
     def test_10_equals_X
         input_number = 10
-        assert_equal('X', convert_numbers(input_number))
+        result = ""
+        assert_equal('X', convert_numbers(input_number, result))
     end
 
     def test_11_equals_XI
         input_number = 11
-        assert_equal('XI', convert_numbers(input_number))
+        result = ""
+        assert_equal('XI', convert_numbers(input_number, result))
     end
 
     def test_14_equals_XVI
         input_number = 14
-        assert_equal('XVI', convert_numbers(input_number))
+        assert_equal('XVI', convert_numbers(input_number, result))
     end
 
+    def test_19_equals_XIX
+        input_number = 19
+        result = ""
+        assert_equal('XIX', convert_numbers(input_number, result))
+    end
+
+    def test_24_equals_XXIV
+        input_number = 24
+        result = ""
+        assert_equal('XXIV', convert_numbers(input_number, result))
+    end
+
+    def test_59_equals_LIX
+        input_number = 59
+        result = ""
+        assert_equal('LIX', convert_numbers(input_number, result))
+    end
 end
