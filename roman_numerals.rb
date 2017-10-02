@@ -113,30 +113,31 @@ def array_loop(input_letter, result)
 end
 
 def have_to_subtract(input_letter, result)
+    result = result.to_i
     if input_letter.include?("IV")
-        input_letter.delete("IV")
+        input_letter = input_letter.delete("IV")
         result = result + 4
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     elsif input_letter.include?("IX")
-        input_letter.delete("IX")
+        input_letter = input_letter.delete("IX")
         result = result + 9
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     elsif input_letter.include?("XL")
-        input_letter.delete("XL")
+        input_letter = input_letter.delete("XL")
         result = result + 40
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     elsif input_letter.include?("XC")
-        input_letter.delete("XC")
+        input_letter = input_letter.delete("XC")
         result = result + 90
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     elsif input_letter.include?("CD")
-        input_letter.delete("CD")
+        input_letter = input_letter.delete("CD")
         result = result + 400
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     elsif input_letter.include?("CM")
-        input_letter.delete("CM")
+        input_letter = input_letter.delete("CM")
         result = result + 900
-        have_to_subtract(input_letter)
+        have_to_subtract(input_letter, result)
     else
         array_loop(input_letter, result)
     end
