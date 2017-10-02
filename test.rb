@@ -39,29 +39,29 @@ class TestRomanNumerals <Minitest::Test
         assert_equal('XI', convert_numbers(input_number, result))
     end
 
-    def test_14_equals_XVI
-		input_number = 14
-		result = ""
-        assert_equal('XVI', convert_numbers(input_number, result))
-    end
+    # def test_14_equals_XVI
+	# 	input_number = 14
+	# 	result = ""
+    #     assert_equal('XVI', convert_numbers(input_number, result))
+    # end
 
-    def test_19_equals_XIX
-        input_number = 19
-        result = ""
-        assert_equal('XIX', convert_numbers(input_number, result))
-    end
+    # def test_19_equals_XIX
+    #     input_number = 19
+    #     result = ""
+    #     assert_equal('XIX', convert_numbers(input_number, result))
+    # end
 
-    def test_24_equals_XXIV
-        input_number = 24
-        result = ""
-        assert_equal('XXIV', convert_numbers(input_number, result))
-    end
+    # def test_24_equals_XXIV
+    #     input_number = 24
+    #     result = ""
+    #     assert_equal('XXIV', convert_numbers(input_number, result))
+    # end
 
-    def test_59_equals_LIX
-        input_number = 59
-        result = ""
-        assert_equal('LIX', convert_numbers(input_number, result))
-    end
+    # def test_59_equals_LIX
+    #     input_number = 59
+    #     result = ""
+    #     assert_equal('LIX', convert_numbers(input_number, result))
+    # end
 
     def test_900_equals_CM
         input_number = 900
