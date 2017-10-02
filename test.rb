@@ -183,4 +183,8 @@ class TestRomanNumerals <Minitest::Test
         assert_equal(1, convert_from_numerals(input_letter, result))
     end
 
+    def test_roman_numeral_split
+        input_letter = "VVI"
+        assert_equal(["V", "V", "I"], make_input_letters_an_array(input_letter))
+    end
 end
