@@ -116,4 +116,10 @@ class TestRomanNumerals <Minitest::Test
 		result = ""
 		assert_equal("XLV", convert_numbers(input_number, result))
 	end
+
+	def test_19_equals_XIX
+		input_number = 19
+		result = ""
+		assert_equal("XIX", convert_numbers(input_number, result))
+	end
 end
