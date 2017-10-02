@@ -57,11 +57,11 @@ class TestRomanNumerals <Minitest::Test
     #     assert_equal('XXIV', convert_numbers(input_number, result))
     # end
 
-    # def test_59_equals_LIX
-    #     input_number = 59
-    #     result = ""
-    #     assert_equal('LIX', convert_numbers(input_number, result))
-    # end
+    def test_59_equals_LIX
+        input_number = 59
+        result = ""
+        assert_equal('LIX', convert_numbers(input_number, result))
+    end
 
     def test_900_equals_CM
         input_number = 900
@@ -103,5 +103,17 @@ class TestRomanNumerals <Minitest::Test
 		input_number = 450
 		result = ""
 		assert_equal("CDL", convert_numbers(input_number, result))
+	end
+
+	def test_95_equals_XCV
+		input_number = 95
+		result = ""
+		assert_equal("XCV", convert_numbers(input_number, result))
+	end
+
+	def test_45_equal_XLV
+		input_number = 45
+		result = ""
+		assert_equal("XLV", convert_numbers(input_number, result))
 	end
 end

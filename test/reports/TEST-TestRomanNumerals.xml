@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time='0.000131' skipped='0' failures='0' errors='0' name="TestRomanNumerals" assertions='13' tests='13'>
-  <testcase time='0.000029' file="test.rb" name="test_5_equals_V" assertions='1'>
+<testsuite time='0.000231' skipped='0' failures='0' errors='0' name="TestRomanNumerals" assertions='16' tests='16'>
+  <testcase time='0.000029' file="test.rb" name="test_2_equals_II" assertions='1'>
   </testcase>
-  <testcase time='0.000015' file="test.rb" name="test_6_equals_VI" assertions='1'>
+  <testcase time='0.000015' file="test.rb" name="test_59_equals_LIX" assertions='1'>
   </testcase>
-  <testcase time='0.000010' file="test.rb" name="test_100_equals_C" assertions='1'>
+  <testcase time='0.000011' file="test.rb" name="test_450_equals_CDL" assertions='1'>
   </testcase>
-  <testcase time='0.000010' file="test.rb" name="test_950_equals_CML" assertions='1'>
+  <testcase time='0.000009' file="test.rb" name="test_100_equals_C" assertions='1'>
   </testcase>
-  <testcase time='0.000008' file="test.rb" name="test_2_equals_II" assertions='1'>
+  <testcase time='0.000009' file="test.rb" name="test_1950_equals_CML" assertions='1'>
   </testcase>
-  <testcase time='0.000006' file="test.rb" name="test_1_equals_I" assertions='1'>
+  <testcase time='0.000009' file="test.rb" name="test_45_equal_XLV" assertions='1'>
   </testcase>
-  <testcase time='0.000011' file="test.rb" name="test_10_equals_X" assertions='1'>
-  </testcase>
-  <testcase time='0.000007' file="test.rb" name="test_11_equals_XI" assertions='1'>
-  </testcase>
-  <testcase time='0.000007' file="test.rb" name="test_1950_equals_CML" assertions='1'>
-  </testcase>
-  <testcase time='0.000006' file="test.rb" name="test_450_equals_CDL" assertions='1'>
+  <testcase time='0.000009' file="test.rb" name="test_10_equals_X" assertions='1'>
   </testcase>
   <testcase time='0.000008' file="test.rb" name="test_500_equals_D" assertions='1'>
   </testcase>
-  <testcase time='0.000008' file="test.rb" name="test_50_equals_L" assertions='1'>
+  <testcase time='0.000065' file="test.rb" name="test_50_equals_L" assertions='1'>
   </testcase>
-  <testcase time='0.000006' file="test.rb" name="test_900_equals_CM" assertions='1'>
+  <testcase time='0.000009' file="test.rb" name="test_5_equals_V" assertions='1'>
+  </testcase>
+  <testcase time='0.000009' file="test.rb" name="test_95_equals_XCV" assertions='1'>
+  </testcase>
+  <testcase time='0.000009' file="test.rb" name="test_1_equals_I" assertions='1'>
+  </testcase>
+  <testcase time='0.000014' file="test.rb" name="test_900_equals_CM" assertions='1'>
+  </testcase>
+  <testcase time='0.000010' file="test.rb" name="test_11_equals_XI" assertions='1'>
+  </testcase>
+  <testcase time='0.000009' file="test.rb" name="test_6_equals_VI" assertions='1'>
+  </testcase>
+  <testcase time='0.000009' file="test.rb" name="test_950_equals_CML" assertions='1'>
   </testcase>
 </testsuite>

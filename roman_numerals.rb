@@ -29,17 +29,33 @@ def convert_numbers(input_number, result)
         input_number -= 100
         result << "C"
         convert_numbers(input_number, result)
+    elsif input_number >= 90
+        input_number -= 90
+        result << "XC"
+        convert_numbers(input_number, result)
     elsif input_number >= 50
         input_number -= 50
         result << "L"
+        convert_numbers(input_number, result)
+    elsif input_number >= 40
+        input_number -= 40
+        result << "XL"
         convert_numbers(input_number, result)
     elsif input_number >= 10
         input_number -= 10
         result << "X"
         convert_numbers(input_number, result)
+    elsif input_number >= 9
+        input_number -= 9
+        result << "IX"
+        convert_numbers(input_number, result)
     elsif input_number >= 5
         input_number -= 5
         result << "V"
+        convert_numbers(input_number, result)
+    elsif input_number >= 4
+        input_number -= 4
+        result << "IV"
         convert_numbers(input_number, result)
     elsif input_number >= 1
         input_number -= 1
