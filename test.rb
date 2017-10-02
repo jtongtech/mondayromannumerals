@@ -211,4 +211,10 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal(499, have_to_subtract(input_letter, result))
     end
+    def test_include_CDXC_return_490
+        input_letter = "CDXC"
+        result = ""
+        assert_equal(490, have_to_subtract(input_letter, result))
+    end
 end
+

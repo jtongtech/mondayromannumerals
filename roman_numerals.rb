@@ -114,42 +114,42 @@ end
 
 def have_to_subtract(input_letter, result)
     result = result.to_i
-    if input_letter.include?("IV")
-        input_letter = input_letter.delete("IV")
-        result = result + 4
-        puts result
-        puts input_letter
-        have_to_subtract(input_letter, result)
-    elsif input_letter.include?("IX")
-        input_letter = input_letter.delete("IX")
-        result = result + 9
-        puts result
-        puts input_letter
-        have_to_subtract(input_letter, result)
-    elsif input_letter.include?("XL")
-        input_letter = input_letter.delete("XL")
-        result = result + 40
-        puts result
-        puts input_letter
-        have_to_subtract(input_letter, result)
-    elsif input_letter.include?("XC")
-        input_letter = input_letter.delete("XC")
-        result = result + 90
-        puts result
-        puts input_letter
-        have_to_subtract(input_letter, result)
-    elsif input_letter.include?("CD")
-        input_letter = input_letter.delete("CD")
-        result = result + 400
-        puts result
-        puts input_letter
-        have_to_subtract(input_letter, result)
-    elsif input_letter.include?("CM")
-        input_letter = input_letter.delete("CM")
+    if input_letter.include?("CM")
+        input_letter = input_letter.gsub('CM','')
         result = result + 900
         puts result
         puts input_letter
         have_to_subtract(input_letter, result)
+    elsif input_letter.include?("CD")
+        input_letter = input_letter.gsub('CD','')
+        result = result + 400
+        puts result
+        puts input_letter
+        have_to_subtract(input_letter, result)
+    elsif input_letter.include?("XC")
+        input_letter = input_letter.gsub('XC','')
+        result = result + 90
+        puts result
+        puts input_letter
+        have_to_subtract(input_letter, result)
+    elsif input_letter.include?("XL")
+        input_letter = input_letter.gsub('XL','')
+        result = result + 40
+        puts result
+        puts input_letter
+        have_to_subtract(input_letter, result)
+    elsif input_letter.include?("IX")
+        input_letter = input_letter.gsub('IX','')
+        result = result + 9
+        puts result
+        puts input_letter
+        have_to_subtract(input_letter, result) 
+    elsif input_letter.include?("IV")
+        input_letter = input_letter.gsub('IV','')
+        result = result + 4
+        puts result
+        puts input_letter
+        have_to_subtract(input_letter, result) 
     else
         puts result
         puts input_letter
