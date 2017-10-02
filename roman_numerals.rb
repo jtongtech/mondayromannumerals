@@ -112,10 +112,36 @@ def array_loop(input_letter, result)
     result
 end
 
-def convert_roman_to_number(input_letter, result)
-    make_input_letters_an_array(input_letter)
-    array_loop(result)
+def have_to_subtract(input_letter, result)
+    if input_letter.include?("IV")
+        input_letter.delete("IV")
+        result = result + 4
+        have_to_subtract(input_letter)
+    elsif input_letter.include?("IX")
+        input_letter.delete("IX")
+        result = result + 9
+        have_to_subtract(input_letter)
+    elsif input_letter.include?("XL")
+        input_letter.delete("XL")
+        result = result + 40
+        have_to_subtract(input_letter)
+    elsif input_letter.include?("XC")
+        input_letter.delete("XC")
+        result = result + 90
+        have_to_subtract(input_letter)
+    elsif input_letter.include?("CD")
+        input_letter.delete("CD")
+        result = result + 400
+        have_to_subtract(input_letter)
+    elsif input_letter.include?("CM")
+        input_letter.delete("CM")
+        result = result + 900
+        have_to_subtract(input_letter)
+    else
+        array_loop(input_letter, result)
+    end
 end
+
 
 
 

@@ -193,4 +193,10 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal(3, array_loop(input_letter, result))
     end
+
+    def test_include_IV_returns_true
+        input_letter = "MCIV"
+        result = ""
+        assert_equal(true, have_to_subtract(input_letter, result))
+    end
 end
