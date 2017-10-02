@@ -28,4 +28,9 @@ class TestRomanNumerals <Minitest::Test
         assert_equal('X', convert_numbers(input_number))
     end
 
+    def test_11_equals_XI
+        input_number = 11
+        assert_equal('XI', convert_numbers(input_number))
+    end
+
 end
