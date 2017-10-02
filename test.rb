@@ -216,5 +216,10 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal(490, have_to_subtract(input_letter, result))
     end
+    def test_random_string_of_roman_numerals
+        input_letter = "MMMCMXLIV"
+        result = ""
+        assert_equal(3944, have_to_subtract(input_letter, result))
+    end
 end
 
