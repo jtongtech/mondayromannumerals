@@ -11,9 +11,18 @@
 def convert_numbers(input_number)
     if input_number == 1
         "I"
-    end
-    if input_number == 5
+    elsif input_number == 5
         "V"
+    elsif input_number == 10
+        "X"
+    elsif input_number == 50
+        "L"
+    elsif input_number == 100
+        "C"
+    elsif input_number == 500
+        "D"
+    elsif input_number == 1000
+        "M"
     end
     
 end
