@@ -199,4 +199,16 @@ class TestRomanNumerals <Minitest::Test
         result = ""
         assert_equal(44, have_to_subtract(input_letter, result))
     end
+
+    def test_include_CMXLIV_return_944
+        input_letter = "CMXLIV"
+        result = ""
+        assert_equal(944, have_to_subtract(input_letter, result))
+    end
+
+    def test_include_CDXCIX_return_499
+        input_letter = "CDXCIX"
+        result = ""
+        assert_equal(499, have_to_subtract(input_letter, result))
+    end
 end
